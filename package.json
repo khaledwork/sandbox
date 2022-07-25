@@ -1,12 +1,12 @@
 {
   "name": "sandbox",
-  "homepage": "https://khaledwork.github.io/sandbox/",
+  "homepage": "https://khaledwork.github.io/sandbox",
   "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d dist",
     "build": "tsc && vite build",
     "preview": "vite preview"
